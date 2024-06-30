@@ -1,0 +1,52 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for alignment */
+.google-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+/* Styling the button */
+.google-login-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #adbf0d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Styling the Google icon */
+.google-login-button .google-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Button hover effect */
+.google-login-button:hover {
+    background-color: #4d750c;
+}
+
+/* Button active effect */
+.google-login-button:active {
+    background-color: #2a65d2;
+}
+
+/* Button focus effect */
+.google-login-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4ae835b6;
+}
